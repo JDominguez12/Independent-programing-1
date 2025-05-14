@@ -15,10 +15,10 @@ public:
     Node* root;
     BinaryTree() : root(nullptr) {}
 
-    // Insert a value into the tree
+    
     void insert(int val);
 
-    // In-order traversal
+    
     void inorder(Node* node);
 };
 
