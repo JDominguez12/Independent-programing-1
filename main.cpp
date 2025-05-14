@@ -1,7 +1,7 @@
 #include "main.hpp"
 #include <iostream>
 
-// Helper function to insert a value into the tree recursively
+
 Node* insertHelper(Node* node, int val) {
     if (!node) return new Node(val);
     if (val < node->data)
@@ -15,7 +15,7 @@ void BinaryTree::insert(int val) {
     root = insertHelper(root, val);
 }
 
-// In-order traversal (prints values in sorted order)
+// In-order traversal 
 void BinaryTree::inorder(Node* node) {
     if (!node) return;
     inorder(node->left);
