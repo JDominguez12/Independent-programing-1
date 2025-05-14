@@ -1,0 +1,5 @@
+I decided to do binary trees because from this course, it was the most interesting topic to cover. This binary tree inserts the values that were placed, as the code then sorts from parent, which is the root, to then into the nodes of the left child, returning to the root when done, then searches through the nodes of the right child. 
+
+main.hpp establishes nodes that would be inserted, and the classes needed for the binary tree traversal. Main.cpp then takes the class and struct from main.hpp and then uses the nodes given in the main to insert the values into the tree. Once everything is inserted, then the traversal starts from left, root, and right of the tree.
+
+The code itself is pretty interesting how it works because it is organized to be like hierarchical tree containing data. I can see this being used in topological hierarchies for data structures.
